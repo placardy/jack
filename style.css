@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: url(../img/JackBOT_background.png);
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+div.head-menu {
+    float: right;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(78, 78, 78, 0.75);
+}
+
+div.logo-head-menu {
+    width: 10%;
+    height: 100%; 
+    display: inline-block;
+    vertical-align: middle;
+} 
+
+div.button-head-menu {
+    width: 10%;
+    height: 100%; 
+    display: inline-block;
+    vertical-align: middle;
+}   
+
+div.button-head-menu:hover {
+    background-color: rgba(78, 78, 78);
+}   
+
+img.logo-head-menu {
+    margin-inline-start: 22.5%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+p.text-head-menu {
+    margin: auto;
+    text-align: center;
+    font-size: x-large;
+}
+
+a.text-head-menu {
+    color: white;
+    text-decoration: none; 
+}
+
+a.text-head-menu:hover {
+    color: white
+}
+
+a.text-head-menu:active {
+    color: white
+}
